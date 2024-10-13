@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sondre Lie Portfolio 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Here you can find three projects I have worked on during my second year at Noroff.</p>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <a href="https://glittering-cendol-f15af5.netlify.app/" target="_blank">
+                    <img src="images/project-exam2page.png" class="carousel-item" alt="Image 1">
+                </a>
+                <div class="carousel-caption">
+                    <h2>Project Exam 2: Holidaze</h2>
+                    <p>
+                        Holidaze is a venue booking platform where users can book venues and venue managers can manage their listings. 
+                        The project allows users to search, view, and book venues, while venue managers can create, update, and track bookings.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <a href="https://whimsical-biscochitos-9b921f.netlify.app/" target="_blank">
+                    <img src="images/Javascript frameworks.png" class="carousel-item" alt="Image 2">
+                </a>
+                <div class="carousel-caption">
+                    <h2>Javascript Frameworks: Ecom Store</h2>
+                    <p>
+                        A simple ecommerce store application built using React.js 
+                        that allows users to view products, add them to a cart, and checkout.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <a href="https://enchanting-puppy-98de3d.netlify.app/" target="_blank">
+                    <img src="images/Semester-project2.png" class="carousel-item" alt="Image 3">
+                </a>
+                <div class="carousel-caption">
+                    <h2>Semester Project 2: Auction Site</h2>
+                    <p>
+                        This project is an auction platform where users can register, 
+                        log in, and participate in listings by creating, editing, bidding, 
+                        and viewing active auctions. The platform allows users to interact with the auction listings and place bids.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <button class="prev-btn" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="next-btn" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+
+    <section class="github-links">
+        <h2>Check Out My Projects on GitHub</h2>
+        <ul>
+            <li><a href="https://github.com/Sondre198/Project-Exam-2/tree/main/holidaze-app" target="_blank">Project Exam 2 GitHub</a></li>
+            <li><a href="https://github.com/Sondre198/Javascript-Frameworks" target="_blank">javascript Frameworks GitHub</a></li>
+            <li><a href="https://github.com/Sondre198/Semester-Project-2/tree/main" target="_blank">Semester Project 2 GitHub</a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
